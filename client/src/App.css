@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f4f5;
+  color: #1e1e1f;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: bottom;
+  align-items: bottom;
+  width: 100%;
+}
+
+.creadorTareas {
+  display: flex;
+  justify-content: bottom;
+  align-items: bottom;
+  flex-direction: column;
+  width: 50%;
+}
+
+.listaTareas {
+  display: flex;
+  justify-content: bottom;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.botonEliminar {
+  margin: 10px;
+  background-color: rgb(242, 61, 44);
+}
+
+.botonEditar {
+  margin: 10px;
+  background-color: rgb(122, 201, 221);
+}
+
+.botonTerminar {
+  margin: 10px;
+  background-color: #97ea95;
+}
+
+.labelTarea {
+  font-weight: bold;
+}
+
+.card-done {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #97ea95;
+  transition: 0.3s;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+}
+.card-pending {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #eda5b0;
+  transition: 0.3s;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tareaItem {
+  background-color: #fafafa;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+
+.crearTarea {
+  background: #f9fbfc;
+  border-radius: 10px;
+  border: 2px solid #202329;
+  margin: 0 24px;
+  height: 64px;
+  width: calc(100% - 62px);
+  font-size: 24px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #1e1e1f;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+  margin: 5px;
+}
+
+.crearTarea::placeholder {
+  color: #a5a5a5;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.crearTarea:focus {
+  outline-color: #61dafa;
+}
+
+.CreateTodoButton {
+  background-color: #61dafa;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fafafa;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 64px;
+}
+
+.CreateTodoButton:hover {
+  background-color: #62d2f1;
+}

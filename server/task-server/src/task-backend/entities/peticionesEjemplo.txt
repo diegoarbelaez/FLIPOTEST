@@ -1,0 +1,19 @@
+
+/** Objetos Para el Backend */
+
+/** Mensaje de Crear tarea */
+
+{
+    "title": "Primera tarea",
+    "description": "Esta Tarea es la primera",
+    "done": false,
+    "createdAt": "2024-01-16 00:00:00",
+    "updatedAt": "2024-01-16 01:01:01"
+}
+
+/** Mensaje para Editar Tarea */
+
+/** Mensaje para Eliminar Tarea */
+
+/** Mensaje para Actualizar Tarea */
+
